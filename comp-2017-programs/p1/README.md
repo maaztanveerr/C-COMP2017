@@ -24,9 +24,9 @@ The system introduces a `sound_seg` structure to represent audio tracks, along w
 ---
 
 ## Example Usage
-
 Below is a minimal example showing how to use the library:
 
+```c
 #include "editor.h"
 #include <stdio.h>
 #include <stdlib.h>
@@ -56,7 +56,7 @@ int main() {
 
 ---
 
-## Key Features
+Key Features
 
 Track Management: Create, write, read, insert, and delete audio segments.
 
@@ -66,19 +66,20 @@ WAV I/O: Load and save audio in WAV format.
 
 Snippet Identification: Use cross-correlation to detect occurrences of an audio snippet inside a longer track.
 
-## Compilation
+
 To build the project, run:
 
-```bash
 make
 
 This produces the object file:
-  sound_seg.o — contains the compiled logic from track.c, wav.c, and identify.c.
+
+    sound_seg.o — contains the compiled logic from track.c, wav.c, and identify.c.
 
 To clean up object files:
-  make clean
 
-# Notes
+    make clean
+
+Notes
 
 Written in C with standard libraries (stdio.h, stdlib.h, stdint.h, string.h).
 
