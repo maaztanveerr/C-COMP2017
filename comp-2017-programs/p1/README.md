@@ -56,7 +56,7 @@ int main() {
 ```
 ---
 
-Key Features
+## Key Features
 
 Track Management: Create, write, read, insert, and delete audio segments.
 
@@ -65,6 +65,8 @@ Shared Backing: Maintain parent-child relationships between tracks for memory ef
 WAV I/O: Load and save audio in WAV format.
 
 Snippet Identification: Use cross-correlation to detect occurrences of an audio snippet inside a longer track.
+
+---
 
 ```
 To build the project, run:
@@ -79,7 +81,11 @@ To clean up object files:
 
     make clean
 ```
-Notes
+
+---
+
+
+## Notes
 
 Written in C with standard libraries (stdio.h, stdlib.h, stdint.h, string.h).
 
