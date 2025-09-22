@@ -53,7 +53,7 @@ int main() {
     tr_destroy(snippet);
     return 0;
 }
-
+```
 ---
 
 Key Features
@@ -66,7 +66,7 @@ WAV I/O: Load and save audio in WAV format.
 
 Snippet Identification: Use cross-correlation to detect occurrences of an audio snippet inside a longer track.
 
-
+```
 To build the project, run:
 
 make
@@ -78,7 +78,7 @@ This produces the object file:
 To clean up object files:
 
     make clean
-
+```
 Notes
 
 Written in C with standard libraries (stdio.h, stdlib.h, stdint.h, string.h).
