@@ -13,14 +13,14 @@ The system introduces a `sound_seg` structure to represent audio tracks, along w
 - Identifying snippets within longer tracks using cross-correlation
 
 ---
-
-## File Structure```
+```
+## File Structure
 ├── editor.h     # Header file defining core structs and function prototypes
 ├── track.c      # Implements track operations (init, destroy, read, write, insert, delete)
 ├── wav.c        # Implements WAV file load/save functionality
 ├── identify.c   # Implements cross-correlation snippet identification
 ├── Makefile     # Build instructions for generating sound_seg.o
-
+```
 ---
 
 ## Example Usage
